@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>МУВ</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./dest_css/main.css">
+</head>
+<body>
+    <header class="site-header" id="site-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-sm-3 col-6">
+                    <a href="#" class="site-logo">
+                        <img src="./images/logo.svg" alt="Логотип сайта МУВ">
+                    </a>
+                </div>
+                <div class="col-lg-10 col-sm-9 col-6">
+                    <div class="site-header-wrap" id="site-header-wrap">
+                        <nav class="site-menu site-header-wrap-menu">
+                            <ul class="site-menu-ul">
+                                <li class="site-menu-item site-menu-item-has_children">
+                                    <a href="#" class="site-menu-item-link">
+                                        Програма МУВ
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="site-menu-item-link-icon"
+                                             width="10" height="5" viewBox="0 0 10 5" fill="none">
+                                            <path d="M9.66667 0.779973C9.66701 0.87957 9.64503 0.977976 9.60234 1.06796C9.55966 1.15795 9.49735 1.23723 9.42 1.29997L5.42001 4.51997C5.30072 4.61803 5.15109 4.67163 4.99667 4.67163C4.84226 4.67163 4.69263 4.61803 4.57334 4.51997L0.573339 1.18664C0.437195 1.07348 0.351578 0.910873 0.335325 0.734589C0.319072 0.558305 0.373513 0.382784 0.486672 0.246639C0.599832 0.110495 0.762439 0.024879 0.938723 0.00862599C1.11501 -0.007627 1.29053 0.0468135 1.42667 0.159973L5.00001 3.13997L8.57334 0.259973C8.6712 0.178451 8.79036 0.126666 8.91672 0.110746C9.04309 0.0948268 9.17137 0.115439 9.28639 0.170142C9.40141 0.224846 9.49835 0.311353 9.56574 0.419427C9.63313 0.5275 9.66816 0.652617 9.66667 0.779973Z"
+                                                  fill="#1F1C4E"/>
+                                        </svg>
+                                    </a>
+                                    <ul class="site-menu-item_submenu">
+                                        <li class="site-menu-item site-menu-item_submenu-item"><a href="#"
+                                                                                                  class="site-menu-item-link site-menu-item_submenu-link">Про
+                                            програму</a></li>
+                                        <li class="site-menu-item site-menu-item_submenu-item"><a href="#"
+                                                                                                  class="site-menu-item-link site-menu-item_submenu-link">Умови
+                                            участі</a></li>
+                                        <li class="site-menu-item site-menu-item_submenu-item"><a href="#"
+                                                                                                  class="site-menu-item-link site-menu-item_submenu-link">Партнерство</a>
+                                        </li>
+                                        <li class="site-menu-item site-menu-item_submenu-item"><a href="#"
+                                                                                                  class="site-menu-item-link site-menu-item_submenu-link">Реєстрація</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="site-menu-item">
+                                    <a href="#" class="site-menu-item-link">Можливості для молоді</a>
+                                </li>
+                                <li class="site-menu-item">
+                                    <a href="#" class="site-menu-item-link">ВМЦ</a>
+                                </li>
+                                <li class="site-menu-item">
+                                    <a href="#" class="site-menu-item-link">Блог</a>
+                                </li>
+                                <li class="site-menu-item">
+                                    <a href="#" class="site-menu-item-link">Контакти</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="site-header-wrap-language">
+                            <ul class="site-language" id="site-language">
+                                <li class="site-language-item active">
+                                    <a href="#" class="site-language-item-link">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14"
+                                             viewBox="0 0 20 14" fill="none">
+                                            <g clip-path="url(#clip1)">
+                                                <path d="M19.961 0.0157471H0V13.3228H19.961V0.0157471Z" fill="#FFDA44"/>
+                                                <path d="M19.961 0.0157471H0V6.66928H19.961V0.0157471Z" fill="#338AF3"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip1">
+                                                    <rect width="20" height="13.3333" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="site-language-item">
+                                    <a href="#" class="site-language-item-link">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14"
+                                             viewBox="0 0 20 14" fill="none">
+                                            <path d="M20 0.0130615H0V13.3465H20V0.0130615Z" fill="#F0F0F0"/>
+                                            <path d="M11.25 0.0129395H8.75V5.42957H0V7.92957H8.75V13.3462H11.25V7.92957H20V5.42957H11.25V0.0129395Z"
+                                                  fill="#D80027"/>
+                                            <path d="M15.3822 8.99841L20 11.5639V8.99841H15.3822Z" fill="#0052B4"/>
+                                            <path d="M12.1739 8.99841L20 13.3462V12.1168L14.387 8.99841H12.1739Z"
+                                                  fill="#0052B4"/>
+                                            <path d="M17.9154 13.3462L12.1739 10.1562V13.3462H17.9154Z" fill="#0052B4"/>
+                                            <path d="M12.1739 8.99841L20 13.3462V12.1168L14.387 8.99841H12.1739Z"
+                                                  fill="#F0F0F0"/>
+                                            <path d="M12.1739 8.99841L20 13.3462V12.1168L14.387 8.99841H12.1739Z"
+                                                  fill="#D80027"/>
+                                            <path d="M3.52895 8.99829L0 10.9588V8.99829H3.52895Z" fill="#0052B4"/>
+                                            <path d="M7.82611 9.55115V13.3461H0.995758L7.82611 9.55115Z"
+                                                  fill="#0052B4"/>
+                                            <path d="M5.61301 8.99841L0 12.1168V13.3462L7.82609 8.99841H5.61301Z"
+                                                  fill="#D80027"/>
+                                            <path d="M4.61777 4.36076L0 1.79529V4.36076H4.61777Z" fill="#0052B4"/>
+                                            <path d="M7.82609 4.36075L0 0.0129395V1.24239L5.61301 4.36075H7.82609Z"
+                                                  fill="#0052B4"/>
+                                            <path d="M2.08463 0.0129395L7.82611 3.20294V0.0129395H2.08463Z"
+                                                  fill="#0052B4"/>
+                                            <path d="M7.82609 4.36075L0 0.0129395V1.24239L5.61301 4.36075H7.82609Z"
+                                                  fill="#F0F0F0"/>
+                                            <path d="M7.82609 4.36075L0 0.0129395V1.24239L5.61301 4.36075H7.82609Z"
+                                                  fill="#D80027"/>
+                                            <path d="M16.4711 4.36082L20 2.40027V4.36082H16.4711Z" fill="#0052B4"/>
+                                            <path d="M12.1739 3.8079V0.0129395H19.0043L12.1739 3.8079Z" fill="#0052B4"/>
+                                            <path d="M14.387 4.36075L20 1.24239V0.0129395L12.1739 4.36075H14.387Z"
+                                                  fill="#D80027"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="site-header-wrap-social">
+                            <ul class="socials-icons">
+                                <li class="socials-icons-item">
+                                    <a href="#" class="socials-icons-item-link" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                             viewBox="0 0 16 16" fill="none">
+                                            <path d="M13.0103 0.41947V3.64594H10.1593C9.81082 3.64594 9.52572 3.93632 9.52572 4.29122V6.22712H12.6935V9.45358H9.52572V15.9065H6.35792V9.45355H3.82367V6.22708H6.35792V4.29119C6.35792 2.25851 7.87844 0.580764 9.84247 0.419434H13.0103V0.41947Z"
+                                                  fill="#707683"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials-icons-item">
+                                    <a href="#" class="socials-icons-item-link" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                             viewBox="0 0 16 16" fill="none">
+                                            <path d="M15.9531 4.69486C15.9157 3.84637 15.7785 3.26305 15.582 2.75759C15.3792 2.22106 15.0672 1.74071 14.6585 1.34139C14.2592 0.935852 13.7757 0.620733 13.2454 0.421133C12.737 0.22458 12.1567 0.0873705 11.3082 0.0499608C10.4534 0.00938288 10.182 0 8.01398 0C5.84592 0 5.57455 0.00938288 4.7229 0.0467926C3.87442 0.0842023 3.2911 0.221534 2.78576 0.417965C2.24911 0.620733 1.76875 0.932684 1.36943 1.34139C0.963897 1.74071 0.6489 2.22423 0.449179 2.75455C0.252626 3.26305 0.115416 3.84321 0.0780065 4.69169C0.0374285 5.54651 0.0280457 5.81788 0.0280457 7.98593C0.0280457 10.154 0.0374285 10.4254 0.0748382 11.277C0.112248 12.1255 0.249579 12.7088 0.446133 13.2143C0.6489 13.7508 0.963897 14.2312 1.36943 14.6305C1.76875 15.036 2.25228 15.3511 2.78259 15.5507C3.2911 15.7473 3.87125 15.8845 4.71986 15.9219C5.57138 15.9594 5.84288 15.9687 8.01093 15.9687C10.179 15.9687 10.4504 15.9594 11.302 15.9219C12.1505 15.8845 12.7338 15.7473 13.2392 15.5507C14.3123 15.1358 15.1608 14.2873 15.5757 13.2143C15.7722 12.7058 15.9095 12.1255 15.9469 11.277C15.9843 10.4254 15.9937 10.154 15.9937 7.98593C15.9937 5.81788 15.9905 5.54651 15.9531 4.69486ZM14.5151 11.2146C14.4807 11.9945 14.3497 12.4156 14.2406 12.6964C13.9722 13.3921 13.4201 13.9442 12.7244 14.2125C12.4437 14.3217 12.0195 14.4527 11.2427 14.4869C10.4004 14.5245 10.1478 14.5337 8.01715 14.5337C5.8865 14.5337 5.63073 14.5245 4.79151 14.4869C4.01163 14.4527 3.5905 14.3217 3.30974 14.2125C2.96355 14.0846 2.64843 13.8818 2.39266 13.6166C2.1275 13.3577 1.92473 13.0457 1.79678 12.6996C1.6876 12.4188 1.5566 11.9945 1.52236 11.2178C1.48483 10.3755 1.47557 10.1228 1.47557 7.99215C1.47557 5.8615 1.48483 5.60573 1.52236 4.76663C1.5566 3.98675 1.6876 3.56562 1.79678 3.28486C1.92473 2.93855 2.1275 2.62355 2.39582 2.36766C2.65465 2.1025 2.9666 1.89973 3.31291 1.7719C3.59367 1.66272 4.01797 1.53173 4.79467 1.49736C5.63694 1.45995 5.88967 1.45057 8.0202 1.45057C10.154 1.45057 10.4066 1.45995 11.2458 1.49736C12.0257 1.53173 12.4468 1.66272 12.7276 1.7719C13.0738 1.89973 13.3889 2.1025 13.6447 2.36766C13.9098 2.6266 14.1126 2.93855 14.2406 3.28486C14.3497 3.56562 14.4807 3.9898 14.5151 4.76663C14.5525 5.6089 14.5619 5.8615 14.5619 7.99215C14.5619 10.1228 14.5525 10.3724 14.5151 11.2146Z"
+                                                  fill="#707683"/>
+                                            <path d="M8.01395 3.88379C5.74927 3.88379 3.9118 5.72113 3.9118 7.98594C3.9118 10.2507 5.74927 12.0881 8.01395 12.0881C10.2788 12.0881 12.1161 10.2507 12.1161 7.98594C12.1161 5.72113 10.2788 3.88379 8.01395 3.88379ZM8.01395 10.6469C6.54474 10.6469 5.35299 9.45528 5.35299 7.98594C5.35299 6.5166 6.54474 5.32498 8.01395 5.32498C9.48329 5.32498 10.6749 6.5166 10.6749 7.98594C10.6749 9.45528 9.48329 10.6469 8.01395 10.6469Z"
+                                                  fill="#707683"/>
+                                            <path d="M13.2361 3.72158C13.2361 4.25044 12.8073 4.67925 12.2783 4.67925C11.7495 4.67925 11.3206 4.25044 11.3206 3.72158C11.3206 3.19261 11.7495 2.76392 12.2783 2.76392C12.8073 2.76392 13.2361 3.19261 13.2361 3.72158Z"
+                                                  fill="#707683"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials-icons-item">
+                                    <a href="#" class="socials-icons-item-link" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                             viewBox="0 0 16 16" fill="none">
+                                            <path d="M6.29694 9.79097L6.03279 13.5064C6.41072 13.5064 6.5744 13.344 6.77068 13.1491L8.54255 11.4557L12.214 14.1445C12.8874 14.5197 13.3618 14.3221 13.5434 13.525L15.9534 2.23241L15.9541 2.23174C16.1677 1.23636 15.5941 0.847117 14.9381 1.09131L0.772404 6.51471C-0.194374 6.88998 -0.179736 7.42892 0.608058 7.67311L4.22965 8.79958L12.6419 3.53586C13.0378 3.27371 13.3977 3.41876 13.1016 3.68091L6.29694 9.79097Z"
+                                                  fill="#707683"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials-icons-item">
+                                    <a href="#" class="socials-icons-item-link" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                             viewBox="0 0 16 16" fill="none">
+                                            <path d="M15.7235 4.44019C15.5276 3.58928 14.8316 2.9615 13.9938 2.86786C12.0097 2.64638 10.0015 2.64522 8.00256 2.64638C6.00328 2.64522 3.99476 2.64638 2.01067 2.86786C1.17331 2.9615 0.477812 3.58928 0.28193 4.44019C0.00313807 5.65198 0 6.97476 0 8.22239C0 9.47002 0 10.7926 0.278792 12.0042C0.474343 12.855 1.17 13.4828 2.00787 13.5766C3.99178 13.7982 6.00014 13.7994 7.99942 13.7982C9.99903 13.7994 12.0069 13.7982 13.9906 13.5766C14.828 13.4829 15.5242 12.8552 15.7201 12.0042C15.999 10.7925 16 9.46985 16 8.22239C16 6.97476 16.0023 5.65198 15.7235 4.44019ZM5.93524 10.7058C5.93524 8.93588 5.93524 7.18451 5.93524 5.41448C7.63095 6.29925 9.31543 7.17807 11.0219 8.06829C9.32071 8.95058 7.63541 9.82412 5.93524 10.7058Z"
+                                                  fill="#707683"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="lang-menu_open-wrapper" id="lang-menu_open-wrapper">
+                        <div class="open_menu" id="open_menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-7 order-1 order-md-0">
+                        <div class="banner-caption">
+                            <h1 class="banner-caption-title">
+                                Національна програма мобільності молоді
+                            </h1>
+                            <h2 class="banner-caption-subtitle">
+                                Мандруй! Уявляй! Відкривай!
+                            </h2>
+                            <div class="banner-caption-text">
+                                Найбільша в Центральній та Східній Європі 7-денна програма внутрішніх обмінів для молоді
+                                віком від 14 до 21 року. Її ініціатором є Міністерство культури, молоді та спорту
+                                України, в основу діяльності якого покладені демократичні цінності та принципи
+                                всебічного розвитку особистості.
+                            </div>
+                            <a href="#" class="banner-caption-button custom_button">Стати учасником програми МУВ</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5">
+                        <div class="banner-image">
+                            <img src="./images/banner-image.svg" alt="Изображение баннера для сайта МУВ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="section-title blog-title">Блог</h3>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item">
+                            <div class="blog-item-image">
+                                <img src="./images/banner-img.jpg" alt="Готуємося до майбутніх поїздок на карантині: освоюємо корисні навички для туристів">
+                            </div>
+                            <div class="blog-item-caption">
+                                <div class="blog-item-caption-top">
+                                    <div class="blog-item-caption-category"><a href="#">Категорія</a></div>
+                                    <div class="blog-item-caption-out_link">
+                                        <a href="https://unian.net" target="_blank">
+                                            https://unian.net
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                                <g clip-path="url(#clip1)">
+                                                    <path d="M5.55557 0L7.38501 1.82944L3.49612 5.71833L4.28168 6.50389L8.17057 2.615L10 4.44444V0H5.55557Z" fill="#707683"/>
+                                                    <path d="M8.88889 8.88889H1.11111V1.11111H5L3.88889 0H1.11111C0.498333 0 0 0.498333 0 1.11111V8.88889C0 9.50167 0.498333 10 1.11111 10H8.88889C9.50167 10 10 9.50167 10 8.88889V6.11111L8.88889 5V8.88889Z" fill="#707683"/>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip1">
+                                                        <rect width="10" height="10" fill="white"/>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h4 class="blog-item-caption-title">
+                                    <a href="#">Готуємося до майбутніх поїздок на карантині: освоюємо корисні навички для туристів</a>
+                                </h4>
+                                <div class="blog-item-caption-date">
+                                    <span>18 Вересня, 2020</span>
+                                </div>
+                                <div class="blog-item-caption-text">
+                                    Подорожуючи, ми все більше прагнемо знайти нові, красиві і незвідані нами місця. В умовах пандемії відпочинок в найбільш. Подорожуючи, ми все більше прагнемо знайти нові... В умовах пандемії відпочинок в найбільш. Подорожуючи, ми все більше прагнемо знайти нові...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-list">
+                            <div class="blog-item small">
+                                <div class="blog-item-caption">
+                                    <div class="blog-item-caption-top">
+                                        <div class="blog-item-caption-category"><a href="#">Категорія</a></div>
+                                    </div>
+                                    <h4 class="blog-item-caption-title">
+                                        <a href="#">Топ-7 безлюдних курортів для літнього відпочинку в Україні</a>
+                                    </h4>
+                                    <div class="blog-item-caption-date">
+                                        <span>18 Вересня, 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-item small">
+                                <div class="blog-item-caption">
+                                    <div class="blog-item-caption-top">
+                                        <div class="blog-item-caption-category"><a href="#">Категорія</a></div>
+                                        <div class="blog-item-caption-out_link">
+                                            <a href="https://unian.net" target="_blank">
+                                                https://unian.net
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                                    <g clip-path="url(#clip1)">
+                                                        <path d="M5.55557 0L7.38501 1.82944L3.49612 5.71833L4.28168 6.50389L8.17057 2.615L10 4.44444V0H5.55557Z" fill="#707683"/>
+                                                        <path d="M8.88889 8.88889H1.11111V1.11111H5L3.88889 0H1.11111C0.498333 0 0 0.498333 0 1.11111V8.88889C0 9.50167 0.498333 10 1.11111 10H8.88889C9.50167 10 10 9.50167 10 8.88889V6.11111L8.88889 5V8.88889Z" fill="#707683"/>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip1">
+                                                            <rect width="10" height="10" fill="white"/>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <h4 class="blog-item-caption-title">
+                                        <a href="#">Готуємося до майбутніх поїздок на карантині: освоюємо корисні навички для туристів лорем iпсум долор</a>
+                                    </h4>
+                                    <div class="blog-item-caption-date">
+                                        <span>11 Вересня, 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-item small">
+                                <div class="blog-item-caption">
+                                    <div class="blog-item-caption-top">
+                                        <div class="blog-item-caption-category"><a href="#">Категорія</a></div>
+                                    </div>
+                                    <h4 class="blog-item-caption-title">
+                                        <a href="#">Топ-7 безлюдних курортів для літнього відпочинку в Україні</a>
+                                    </h4>
+                                    <div class="blog-item-caption-date">
+                                        <span>18 Вересня, 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-item small">
+                                <div class="blog-item-caption">
+                                    <div class="blog-item-caption-top">
+                                        <div class="blog-item-caption-category"><a href="#">Категорія</a></div>
+                                        <div class="blog-item-caption-out_link">
+                                            <a href="https://unian.net" target="_blank">
+                                                https://unian.net
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                                    <g clip-path="url(#clip1)">
+                                                        <path d="M5.55557 0L7.38501 1.82944L3.49612 5.71833L4.28168 6.50389L8.17057 2.615L10 4.44444V0H5.55557Z" fill="#707683"/>
+                                                        <path d="M8.88889 8.88889H1.11111V1.11111H5L3.88889 0H1.11111C0.498333 0 0 0.498333 0 1.11111V8.88889C0 9.50167 0.498333 10 1.11111 10H8.88889C9.50167 10 10 9.50167 10 8.88889V6.11111L8.88889 5V8.88889Z" fill="#707683"/>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip1">
+                                                            <rect width="10" height="10" fill="white"/>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <h4 class="blog-item-caption-title">
+                                        <a href="#">Готуємося до майбутніх поїздок на карантині: освоюємо корисні навички для туристів лорем iпсум долор</a>
+                                    </h4>
+                                    <div class="blog-item-caption-date">
+                                        <span>11 Вересня, 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="blog-button custom_button border">Перейти до блогу</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-4 col-md-4 col-sm-6">
+                    <a class="logo" href="#">
+                        <img src="./images/footer-logo.svg" alt="Логотип для сайта МУВ">
+                    </a>
+                    <ul class="socials-icons">
+                        <li class="socials-icons-item">
+                            <a href="#" class="socials-icons-item-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="16" viewBox="0 0 11 16" fill="none">
+                                    <path d="M10.0103 0.41944V3.64591H7.15927C6.81082 3.64591 6.52572 3.93629 6.52572 4.29119V6.22709H9.69352V9.45355H6.52572V15.9064H3.35792V9.45352H0.823669V6.22705H3.35792V4.29115C3.35792 2.25848 4.87844 0.580734 6.84247 0.419403H10.0103V0.41944Z" fill="#B1B0C1"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials-icons-item">
+                            <a href="#" class="socials-icons-item-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <g clip-path="url(#clip0)">
+                                        <path d="M15.9532 4.69486C15.9157 3.84637 15.7785 3.26305 15.582 2.75759C15.3792 2.22106 15.0673 1.74071 14.6586 1.34139C14.2592 0.935852 13.7757 0.620733 13.2454 0.421133C12.737 0.22458 12.1567 0.0873705 11.3083 0.0499608C10.4534 0.00938288 10.1821 0 8.01401 0C5.84595 0 5.57458 0.00938288 4.72293 0.0467926C3.87445 0.0842023 3.29113 0.221534 2.78579 0.417965C2.24914 0.620733 1.76878 0.932684 1.36946 1.34139C0.963928 1.74071 0.648931 2.22423 0.449209 2.75455C0.252656 3.26305 0.115447 3.84321 0.078037 4.69169C0.0374591 5.54651 0.0280762 5.81788 0.0280762 7.98593C0.0280762 10.154 0.0374591 10.4254 0.0748688 11.277C0.112278 12.1255 0.24961 12.7088 0.446163 13.2143C0.648931 13.7508 0.963928 14.2312 1.36946 14.6305C1.76878 15.036 2.25231 15.3511 2.78262 15.5507C3.29113 15.7473 3.87128 15.8845 4.71989 15.9219C5.57141 15.9594 5.84291 15.9687 8.01096 15.9687C10.179 15.9687 10.4504 15.9594 11.302 15.9219C12.1505 15.8845 12.7338 15.7473 13.2392 15.5507C14.3124 15.1358 15.1608 14.2873 15.5758 13.2143C15.7722 12.7058 15.9095 12.1255 15.9469 11.277C15.9843 10.4254 15.9937 10.154 15.9937 7.98593C15.9937 5.81788 15.9906 5.54651 15.9532 4.69486ZM14.5151 11.2146C14.4808 11.9945 14.3498 12.4156 14.2406 12.6964C13.9723 13.3921 13.4201 13.9442 12.7245 14.2125C12.4437 14.3217 12.0195 14.4527 11.2427 14.4869C10.4004 14.5245 10.1478 14.5337 8.01718 14.5337C5.88653 14.5337 5.63076 14.5245 4.79154 14.4869C4.01166 14.4527 3.59053 14.3217 3.30977 14.2125C2.96358 14.0846 2.64846 13.8818 2.39269 13.6166C2.12753 13.3577 1.92476 13.0457 1.79681 12.6996C1.68763 12.4188 1.55663 11.9945 1.52239 11.2178C1.48486 10.3755 1.4756 10.1228 1.4756 7.99215C1.4756 5.8615 1.48486 5.60573 1.52239 4.76663C1.55663 3.98675 1.68763 3.56562 1.79681 3.28486C1.92476 2.93855 2.12753 2.62355 2.39585 2.36766C2.65468 2.1025 2.96663 1.89973 3.31294 1.7719C3.5937 1.66272 4.018 1.53173 4.79471 1.49736C5.63697 1.45995 5.8897 1.45057 8.02023 1.45057C10.154 1.45057 10.4066 1.45995 11.2459 1.49736C12.0257 1.53173 12.4469 1.66272 12.7276 1.7719C13.0738 1.89973 13.3889 2.1025 13.6447 2.36766C13.9099 2.6266 14.1126 2.93855 14.2406 3.28486C14.3498 3.56562 14.4808 3.9898 14.5151 4.76663C14.5525 5.6089 14.5619 5.8615 14.5619 7.99215C14.5619 10.1228 14.5525 10.3724 14.5151 11.2146Z" fill="#B1B0C1"/>
+                                        <path d="M8.01395 3.88376C5.74927 3.88376 3.9118 5.7211 3.9118 7.98591C3.9118 10.2507 5.74927 12.0881 8.01395 12.0881C10.2788 12.0881 12.1161 10.2507 12.1161 7.98591C12.1161 5.7211 10.2788 3.88376 8.01395 3.88376ZM8.01395 10.6469C6.54474 10.6469 5.35299 9.45524 5.35299 7.98591C5.35299 6.51657 6.54474 5.32495 8.01395 5.32495C9.48329 5.32495 10.6749 6.51657 10.6749 7.98591C10.6749 9.45524 9.48329 10.6469 8.01395 10.6469Z" fill="#B1B0C1"/>
+                                        <path d="M13.2361 3.72158C13.2361 4.25044 12.8073 4.67925 12.2783 4.67925C11.7495 4.67925 11.3206 4.25044 11.3206 3.72158C11.3206 3.19261 11.7495 2.76392 12.2783 2.76392C12.8073 2.76392 13.2361 3.19261 13.2361 3.72158Z" fill="#B1B0C1"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0">
+                                            <rect width="16" height="15.9688" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials-icons-item">
+                            <a href="#" class="socials-icons-item-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                                    <g clip-path="url(#clip0)">
+                                        <path d="M6.29694 8.79097L6.03279 12.5064C6.41072 12.5064 6.5744 12.344 6.77068 12.1491L8.54255 10.4557L12.214 13.1445C12.8874 13.5197 13.3618 13.3221 13.5434 12.525L15.9534 1.23241L15.9541 1.23174C16.1677 0.236356 15.5941 -0.152883 14.9381 0.0913065L0.772404 5.51471C-0.194374 5.88998 -0.179736 6.42892 0.608058 6.67311L4.22965 7.79958L12.6419 2.53586C13.0378 2.27371 13.3977 2.41876 13.1016 2.68091L6.29694 8.79097Z" fill="#B1B0C1"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0">
+                                            <rect width="16" height="13.3489" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials-icons-item">
+                            <a href="#" class="socials-icons-item-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 18 14" fill="none">
+                                    <path d="M17.689 2.74516C17.4686 1.78788 16.6856 1.08163 15.743 0.976279C13.5109 0.727113 11.2517 0.725812 9.00288 0.727113C6.75369 0.725812 4.4941 0.727113 2.26201 0.976279C1.31997 1.08163 0.537538 1.78788 0.317172 2.74516C0.00353033 4.10842 0 5.59654 0 7.00012C0 8.40371 0 9.89164 0.313641 11.2547C0.533636 12.2118 1.31625 12.9181 2.25885 13.0236C4.49076 13.2729 6.75016 13.2742 8.99935 13.2729C11.2489 13.2742 13.5078 13.2729 15.7395 13.0236C16.6815 12.9182 17.4647 12.212 17.6851 11.2547C17.9989 9.89146 18 8.40352 18 7.00012C18 5.59654 18.0026 4.10842 17.689 2.74516ZM6.67714 9.79391C6.67714 7.80281 6.67714 5.83252 6.67714 3.84123C8.58482 4.83659 10.4799 5.82527 12.3996 6.82677C10.4858 7.81934 8.58983 8.80207 6.67714 9.79391Z" fill="#B1B0C1"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="site-footer-rights">
+                        © 2020 ВМЦ. Всі права захищено.
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                    <nav class="site-footer-menu">
+                        <ul class="site-footer-menu-ul">
+                            <li class="site-footer-menu-item">
+                                <a href="#" class="site-footer-menu-item-link">Програма МУВ</a>
+                            </li>
+                            <li class="site-footer-menu-item">
+                                <a href="#" class="site-footer-menu-item-link">Можливості для молоді</a>
+                            </li>
+                            <li class="site-footer-menu-item">
+                                <a href="#" class="site-footer-menu-item-link">Всеукраїнський молодіжний центр</a>
+                            </li>
+                            <li class="site-footer-menu-item">
+                                <a href="#" class="site-footer-menu-item-link">Блог</a>
+                            </li>
+                            <li class="site-footer-menu-item">
+                                <a href="#" class="site-footer-menu-item-link">Умови користування сайтом</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4">
+                    <div class="site-footer-info">
+                        <h4 class="site-footer-info-title">Контактна інформація</h4>
+                        <ul class="site-footer-info-list">
+                            <li class="site-footer-info-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                                    <g clip-path="url(#clip0)">
+                                        <path d="M15.8591 0.803833L11.0067 5.62505L15.8591 10.4463C15.9468 10.2629 16.0001 10.0602 16.0001 9.8438V1.4063C16.0001 1.18983 15.9468 0.987177 15.8591 0.803833Z" fill="#A6A6A6"/>
+                                        <path d="M14.5938 0H1.4063C1.18983 0 0.987177 0.0532189 0.803833 0.140938L7.0058 6.31167C7.55418 6.86005 8.44593 6.86005 8.9943 6.31167L15.1963 0.140938C15.0129 0.0532189 14.8103 0 14.5938 0Z" fill="#A6A6A6"/>
+                                        <path d="M0.140938 0.803833C0.0532188 0.987177 0 1.18983 0 1.4063V9.8438C0 10.0603 0.0532188 10.263 0.140938 10.4463L4.99341 5.62505L0.140938 0.803833Z" fill="#A6A6A6"/>
+                                        <path d="M10.3438 6.2879L9.65715 6.97456C8.74343 7.88828 7.25665 7.88828 6.34293 6.97456L5.6563 6.2879L0.803833 11.1091C0.987177 11.1968 1.18983 11.2501 1.4063 11.2501H14.5938C14.8103 11.2501 15.0129 11.1968 15.1963 11.1091L10.3438 6.2879Z" fill="#A6A6A6"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0">
+                                            <rect width="16" height="11.25" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <a href="mailto:email@email.com" class="site-footer-info-list-item-link">
+                                    email@email.com
+                                </a>
+                            </li>
+                            <li class="site-footer-info-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3.21778 6.92444C4.49778 9.44 6.56 11.4933 9.07556 12.7822L11.0311 10.8267C11.2711 10.5867 11.6267 10.5067 11.9378 10.6133C12.9333 10.9422 14.0089 11.12 15.1111 11.12C15.6 11.12 16 11.52 16 12.0089V15.1111C16 15.6 15.6 16 15.1111 16C6.76444 16 0 9.23556 0 0.888889C0 0.4 0.4 0 0.888889 0H4C4.48889 0 4.88889 0.4 4.88889 0.888889C4.88889 2 5.06667 3.06667 5.39556 4.06222C5.49333 4.37333 5.42222 4.72 5.17333 4.96889L3.21778 6.92444Z" fill="#A6A6A6"/>
+                                </svg>
+                                <a href="mailto:+380-33-680-4947" class="site-footer-info-list-item-link">
+                                    +380-33-680-4947
+                                </a>
+                            </li>
+                            <li class="site-footer-info-list-item address">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8.00001 16C8.00001 16 13.958 9.24859 13.958 5.95808C13.958 2.66754 11.2905 0 8.00001 0C4.70947 0 2.04193 2.66754 2.04193 5.95805C2.04193 9.24856 8.00001 16 8.00001 16ZM8.00001 1.84417C10.2717 1.84417 12.1136 3.68575 12.1136 5.95777C12.1136 8.2298 10.2717 10.0713 8.00001 10.0713C5.72828 10.0713 3.88643 8.22977 3.88643 5.95777C3.88643 3.68578 5.72828 1.84417 8.00001 1.84417Z" fill="#A6A6A6"/>
+                                </svg>
+                                <span>Україна, 12000 Київ, вул. Грушевського, 56, офіс 2</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="site-footer-button custom_button">Написати нам</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- js -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/all.js"></script>
+</body>
+</html>
